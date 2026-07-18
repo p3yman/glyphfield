@@ -2,6 +2,8 @@
 
 Seeded, animated canvas patterns for React.
 
+[Open the playground →](https://glyphfield.peyman.me)
+
 Glyphfield renders deterministic dot and cross fields for decorative surfaces and loading states. It has no runtime dependencies; React is a peer dependency and is never bundled.
 
 ![Glyphfield color and fade example](./docs/screenshots/theme-and-fade.jpg)
@@ -18,7 +20,13 @@ Glyphfield renders deterministic dot and cross fields for decorative surfaces an
 npm install @p3yman/glyphfield
 ```
 
-The `@p3yman` scope must be controlled by the publisher. Scope ownership could not be verified during repository setup because the local npm client was not authenticated.
+Or add the client-safe wrapper through the GitHub-backed shadcn registry:
+
+```sh
+npx shadcn@latest add p3yman/glyphfield/glyphfield
+```
+
+This installs `@p3yman/glyphfield` and writes `glyphfield.tsx` to your configured `ui` directory.
 
 ## Minimal example
 
