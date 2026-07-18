@@ -54,7 +54,7 @@ export default tseslint.config(
   },
   {
     ...tseslint.configs.disableTypeChecked,
-    files: ['.storybook/**/*.{ts,tsx}'],
+    files: ['.storybook/**/*.{ts,tsx}', 'registry/**/*.{ts,tsx}'],
     languageOptions: {
       parserOptions: {
         projectService: false,
