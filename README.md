@@ -10,7 +10,13 @@ Glyphfield renders deterministic dot and cross fields for decorative surfaces an
 npm install @p3yman/glyphfield
 ```
 
-The `@p3yman` scope must be controlled by the publisher. Scope ownership could not be verified during repository setup because the local npm client was not authenticated.
+Or add the client-safe wrapper through the GitHub-backed shadcn registry:
+
+```sh
+npx shadcn@latest add p3yman/glyphfield/glyphfield
+```
+
+This installs `@p3yman/glyphfield` and writes `glyphfield.tsx` to your configured `ui` directory.
 
 ## Minimal example
 
