@@ -9,6 +9,7 @@ export default tseslint.config(
       'coverage',
       'dist',
       'node_modules',
+      'playground-dist',
       'storybook-static',
       '.tmp',
       'fixtures/consumer',

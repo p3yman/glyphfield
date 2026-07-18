@@ -2,6 +2,8 @@
 
 Seeded, animated canvas patterns for React.
 
+[Open the playground →](https://glyphfield.peyman.me)
+
 Glyphfield renders deterministic dot and cross fields for decorative surfaces and loading states. It has no runtime dependencies; React is a peer dependency and is never bundled.
 
 ## Installation

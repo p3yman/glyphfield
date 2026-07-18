@@ -202,6 +202,46 @@ const meta = {
       options: ['none', 'shimmer', 'random-blink'],
     },
     color: { control: 'color' },
+    cellSize: { control: { type: 'range', min: 1, max: 100, step: 1 } },
+    size: { control: { type: 'range', min: 0, max: 100, step: 1 } },
+    cornerRadius: {
+      control: { type: 'range', min: 0, max: 50, step: 0.5 },
+    },
+    crossThickness: {
+      control: { type: 'range', min: 0, max: 100, step: 0.5 },
+    },
+    rotation: {
+      control: { type: 'range', min: -180, max: 180, step: 1 },
+    },
+    rotationRandomness: {
+      control: { type: 'range', min: 0, max: 1, step: 0.01 },
+    },
+    density: { control: { type: 'range', min: 0, max: 1, step: 0.01 } },
+    densityVariation: {
+      control: { type: 'range', min: 0, max: 1, step: 0.01 },
+    },
+    fieldScale: {
+      control: { type: 'range', min: 0.001, max: 1, step: 0.001 },
+    },
+    shadeScale: {
+      control: { type: 'range', min: 0.001, max: 1, step: 0.001 },
+    },
+    shadeVariation: {
+      control: { type: 'range', min: 0, max: 1, step: 0.01 },
+    },
+    opacity: { control: { type: 'range', min: 0, max: 1, step: 0.01 } },
+    animationDuration: {
+      control: { type: 'range', min: 100, max: 10000, step: 100 },
+    },
+    animationAngle: {
+      control: { type: 'range', min: -180, max: 180, step: 1 },
+    },
+    animationWidth: {
+      control: { type: 'range', min: 0.001, max: 1, step: 0.001 },
+    },
+    animationStrength: {
+      control: { type: 'range', min: 0, max: 1, step: 0.01 },
+    },
   },
 } satisfies Meta<typeof PatternField>;
 

@@ -26,9 +26,11 @@
   },
   "include": [
     "src",
+    "playground",
     "tests",
     ".storybook/**/*",
     "stories",
+    "vite.playground.config.ts",
     "vite.config.ts",
     "vitest.config.ts"
   ]
