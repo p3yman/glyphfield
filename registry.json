@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "glyphfield",
+  "homepage": "https://github.com/p3yman/glyphfield",
+  "items": [
+    {
+      "name": "glyphfield",
+      "type": "registry:ui",
+      "title": "Glyphfield",
+      "description": "Seeded, animated canvas patterns for React.",
+      "dependencies": ["@p3yman/glyphfield@0.1.0"],
+      "files": [
+        {
+          "path": "registry/glyphfield.tsx",
+          "type": "registry:ui",
+          "target": "@ui/glyphfield.tsx"
+        }
+      ],
+      "docs": "Render Glyphfield inside a positioned parent with explicit dimensions. The pattern inherits currentColor by default."
+    }
+  ]
+}

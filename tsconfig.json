@@ -26,6 +26,7 @@
   },
   "include": [
     "src",
+    "registry",
     "tests",
     ".storybook/**/*",
     "stories",
