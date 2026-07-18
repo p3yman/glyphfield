@@ -1,0 +1,18 @@
+{
+  "name": "glyphfield-consumer-fixture",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "verify": "tsc --noEmit && node esm.mjs && node cjs.cjs && node verify-install.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
