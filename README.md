@@ -4,6 +4,14 @@ Seeded, animated canvas patterns for React.
 
 Glyphfield renders deterministic dot and cross fields for decorative surfaces and loading states. It has no runtime dependencies; React is a peer dependency and is never bundled.
 
+![Glyphfield color and fade example](./docs/screenshots/theme-and-fade.jpg)
+
+## Examples
+
+| Layout algorithms                                                          | Shape primitives                                                 |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ![Grid, offset, and seeded random layouts](./docs/screenshots/layouts.jpg) | ![Dot and cross shape primitives](./docs/screenshots/shapes.jpg) |
+
 ## Installation
 
 ```sh
